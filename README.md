@@ -56,13 +56,13 @@ ecommerce-dashboard-template/
 
 ### Prerequisites
 - Node.js v18+
-- Backend server running (see [Server README](../../ECommerce(SERVER)/Server/README.md))
+- Backend server running (see [Server README](https://github.com/TanvirHassan369/E-Commerce-with-AI-Powerd-Search-Backend/edit/main/README.md))
 
 ### Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/TanvirHassan369/ecommerce-fullstack.git
+git clone https://github.com/TanvirHassan369/E-Commerce-with-AI-Powerd-Search-Dashboard
 
 # Navigate to dashboard
 cd "ECommerce(Dashboard)/ecommerce-dashboard-template"
@@ -98,5 +98,5 @@ VITE_API_URL=http://localhost:5000
 
 ## 🔗 Related
 
-- 🌐 [Client (Frontend)](../../E-Commerce(CLIENT)/Client/README.md)
-- ⚙️ [Server (Backend)](../../ECommerce(SERVER)/Server/README.md)
+- 🌐 [Client (Frontend)](https://github.com/TanvirHassan369/E-Commerce-with-AI-Powerd-Search-Frontend)
+- ⚙️ [Server (Backend)](https://github.com/TanvirHassan369/E-Commerce-with-AI-Powerd-Search-Backend)
