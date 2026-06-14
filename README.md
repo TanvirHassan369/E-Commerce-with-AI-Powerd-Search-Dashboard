@@ -56,7 +56,7 @@ ecommerce-dashboard-template/
 
 ### Prerequisites
 - Node.js v18+
-- Backend server running (see [Server README](https://github.com/TanvirHassan369/E-Commerce-with-AI-Powerd-Search-Backend/edit/main/README.md))
+- Backend server running (see [Server README](https://github.com/TanvirHassan369/E-Commerce-with-AI-Powerd-Search-Backend/main/README.md))
 
 ### Installation
 
