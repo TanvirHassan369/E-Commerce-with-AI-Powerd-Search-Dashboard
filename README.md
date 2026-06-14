@@ -1,12 +1,102 @@
-# React + Vite
+# 📊 E-Commerce Admin Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The admin panel for managing the full-stack e-commerce platform. Built with React 19 and Vite, featuring product management, order tracking, user management, analytics charts, and rich text editing.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 📈 Analytics dashboard with charts (Recharts)
+- 🛍️ Product management — add, edit, delete with rich text editor
+- 📦 Order management & status updates
+- 👥 User management
+- 🖼️ Image upload support
+- 📝 Rich text editor (Jodit React + MD Editor)
+- 🔐 Admin authentication & protected routes
+- 🔔 Toast notifications
+- 📱 Fully responsive design
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧱 Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| React 19 + Vite | UI framework & build tool |
+| Redux Toolkit | State management |
+| React Router v7 | Client-side routing |
+| Tailwind CSS | Styling |
+| Recharts | Analytics charts |
+| Axios | API communication |
+| Jodit React | Rich text editor |
+| React Toastify | Notifications |
+| Lucide React + React Icons | Icons |
+
+---
+
+## 📁 Project Structure
+
+```
+ecommerce-dashboard-template/
+├── public/             # Static assets
+├── src/
+│   ├── components/     # Reusable UI components
+│   ├── pages/          # Dashboard, Products, Orders, Users, etc.
+│   ├── store/          # Redux store & slices
+│   ├── App.jsx
+│   └── main.jsx
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js v18+
+- Backend server running (see [Server README](../../ECommerce(SERVER)/Server/README.md))
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/TanvirHassan369/ecommerce-fullstack.git
+
+# Navigate to dashboard
+cd "ECommerce(Dashboard)/ecommerce-dashboard-template"
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+Dashboard runs at `http://localhost:5174`
+
+### Environment Variables
+Create a `.env` file:
+```
+VITE_API_URL=http://localhost:5000
+```
+
+---
+
+## 📸 Pages
+
+| Page | Description |
+|---|---|
+| Dashboard | Overview with analytics & charts |
+| Products | Add / edit / delete products |
+| Orders | View & manage customer orders |
+| Users | Manage registered users |
+| Settings | Admin account settings |
+
+---
+
+## 🔗 Related
+
+- 🌐 [Client (Frontend)](../../E-Commerce(CLIENT)/Client/README.md)
+- ⚙️ [Server (Backend)](../../ECommerce(SERVER)/Server/README.md)

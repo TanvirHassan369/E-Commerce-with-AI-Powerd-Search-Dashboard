@@ -9,9 +9,23 @@ const extraSlice = createSlice({
     isCreateProductModalOpened: false,
     isUpdateProductModalOpened: false,
   },
-  reducers: {},
+  reducers: {
+    toggleCreateProductModal: (state) => {
+      state.isCreateProductModalOpened = !state.isCreateProductModalOpened;
+    },
+    toggleUpdateProductModal: (state) => {
+      state.isUpdateProductModalOpened = !state.isUpdateProductModalOpened;
+    },
+    toggleViewProductModal: (state) => {
+      state.isViewProductModalOpened = !state.isViewProductModalOpened;
+    }
+  },
 });
 
-export const {} = extraSlice.actions;
+export const { 
+  toggleCreateProductModal, 
+  toggleUpdateProductModal, 
+  toggleViewProductModal 
+} = extraSlice.actions;
 
 export default extraSlice.reducer;
